@@ -1,0 +1,12 @@
+@import url(reset.css);
+@import url(text.css);
+
+/* Oxymoron CSS Framework
+ * Zed Shaw
+ * http://oppugn.us/posts/1287608776.html
+ */
+body            {width:660px;margin-left:auto;margin-right:auto;}
+.oxymoron       {display:table;width:100%;border-collapse:collapse;
+                    border-spacing:10px;}
+.notarow        {display:table-row;}
+.notarow div    {display:table-cell;}
