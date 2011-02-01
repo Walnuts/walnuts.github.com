@@ -1,12 +1,14 @@
 @import url(reset.css);
 @import url(text.css);
 
-/* Oxymoron CSS Framework
- * Zed Shaw
- * http://oppugn.us/posts/1287608776.html
- */
-body            {width:660px;margin-left:auto;margin-right:auto;}
-.oxymoron       {display:table;width:100%;border-collapse:collapse;
-                    border-spacing:10px;}
-.notarow        {display:table-row;}
-.notarow div    {display:table-cell;}
+html,body {height: 100%;}
+
+body {width: 960px; margin-left: auto; margin-right: auto;
+    background: #fff; color:#222;}
+
+nav ul {list-style:none;}
+nav ul li {display:inline;}
+nav ul li a {font-weight:bold;}
+
+.content {background: #f5f5f5;}
+

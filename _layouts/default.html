@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html dir="ltr" lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <title>{{ page.title }}</title>
@@ -8,25 +8,29 @@
         <link rel="stylesheet" href="/css/site.css" type="text/css"/>
     </head>
     <body>
-        <div class="oxymoron">
-            <div class="notarow">
-                <div id="header">
-                    Header
-                </div>
-            </div>
+        <header>
+            <h1>Paul Woolcock</h1>
+            <p>Programming, Music, etc.</p>
+        </header>
 
-            <div class="notarow">
-                <div id="content">
-                    {{ content }}
-                </div>
-            </div>
+        <nav class="content">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/c/">C</a></li>
+                <li><a href="/python/">Python</a></li>
+                <li><a href="/clojure/">Clojure</a></li>
+                <li><a href="/javascript/">Javascript</a></li>
+                <!--<li><a href="/">Resume</a></li>-->
+            </ul>
+        </nav>
 
-            <div class="notarow">
-                <div id="footer">
-                    Footer
-                </div>
-            </div>
-        </div>
+        <section class="content">
+        {{ content }}
+        </section>
+
+        <footer>
+        &copy;2011 Paul Woolcock
+        </footer>
     </body>
 </html>
 

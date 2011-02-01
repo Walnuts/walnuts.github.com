@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <title>Posts about {{ page.category }}</title>
+</head>
+<body>
+    <ul>
+    {% capture cat %}{{ page.category }}{% endcapture %}
+    {% for post in site.posts %}{% if post.category == cat %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}{% endfor %}
+    </ul>
+</body>
+</html>
