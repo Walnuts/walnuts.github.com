@@ -6,9 +6,19 @@ html,body {height: 100%;}
 body {width: 960px; margin-left: auto; margin-right: auto;
     background: #fff; color:#222;}
 
+h1 { font-size: 3em; font-weight: normal; }
+.content { margin-bottom: 20px; }
+section.title { float: left; }
+nav.content { float: right; }
+
+a, a:link, a:visited { color: #009; text-shadow: white 1px 1px 1px;
+    text-decoration: underline; }
+a:hover { text-decoration: none; }
+
 nav ul {list-style:none;}
 nav ul li {display:inline;}
-nav ul li a {font-weight:bold;}
 
-.content {background: #f5f5f5;}
+/*.content {background: #f5f5f5;}*/
 
+
+.clear { clear: both; }
